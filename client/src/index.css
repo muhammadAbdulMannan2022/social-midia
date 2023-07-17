@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.primary-bg {
+  @apply bg-[#18191A];
+}
+.icon-color {
+  @apply text-[rgba(255,255,255,1.0000005)];
+}
+.socundery-bg {
+  @apply bg-[#242526];
+}
+.hover-color-icon {
+  @apply bg-[#3A3B3C];
+}
+.logo-font {
+  font-family: "VT323", monospace;
+}
